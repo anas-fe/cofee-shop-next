@@ -1,0 +1,27 @@
+.cart_counter {
+    border-radius: 6px;
+    background-color: #E6E5E5;
+    padding: 8px;
+    font-family: 'Roboto-Regular', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+.cart_counter button {
+    border: none;
+    background-color: transparent;
+    color: #8047F8;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.count_label {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    color: #272221;
+}

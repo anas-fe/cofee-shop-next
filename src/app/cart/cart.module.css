@@ -1,0 +1,43 @@
+.address_form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form_row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.form_row input {height: 42px; background: #E6E5E5; border: 1px solid #EDEDED; border-radius: 4px; padding: 0 10px; font-size: 14px}
+
+.form_row input:focus {outline: 0;}
+
+.form_row:first-child input {width: 35%;}
+
+.form_row:nth-child(2) input {width: 100%;}
+
+.form_row:nth-child(3) input:first-child {
+  width: 35%;
+}
+
+.form_row:nth-child(3) input:last-child {
+  width: 65%;
+}
+
+.form_row:nth-child(4) input:first-child {
+  width: 35%;
+}
+
+.form_row:nth-child(4) input:nth-child(2) {
+  width: 50%;
+}
+
+.form_row:nth-child(4) input:nth-child(3) {
+  width: 10%;
+}
+
+.cart_form {background: #F3F2F2; padding: 40px; border-radius: 4px; display: flex; flex-direction: column; gap: 40px;}
+.cart_form .cart_location {display: flex; align-items: flex-start; gap: 10px;}
+/* .cart_inner {width: 60%;} */
